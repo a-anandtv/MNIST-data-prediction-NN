@@ -1,0 +1,23 @@
+# Remove Python caches
+__pyccache__
+.ipynb_checkpoints
+
+# Ignore Data files
+*.tar.gz
+*.feat
+*.txt
+*.data
+.idea/
+*.pth
+*-ubyte
+*.pt
+*.png
+!docs/**/*.png
+imdb
+data
+.jekyll-cache
+_site
+.vscode
+
+# Ignore Numpy Data files
+*.npy
